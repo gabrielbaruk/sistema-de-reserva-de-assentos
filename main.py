@@ -5,12 +5,15 @@ while True:
     print("2. Assentos")
     print("3. Sair")
 
+    opcao = (input("Escolha umas da opções: "))
 
-    if (opcao == 1):
+    if opcao == "1":
         print("Usuários")
-    if (opcao == 2):
+    elif opcao == "2":
         print("Assentos")
-    elif (opcao == 3):
+    elif opcao == "3":
         break
     else:
-        print("Sair")
+        print("Opcão inválida")
+
+print("O programa foi encerrado")
