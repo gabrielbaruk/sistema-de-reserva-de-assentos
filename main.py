@@ -6,4 +6,11 @@ while True:
     print("3. Sair")
 
 
-    opcao = input("Esolha o assento dispnivel: ")
+    if (opcao == 1):
+        print("Usuários")
+    if (opcao == 2):
+        print("Assentos")
+    elif (opcao == 3):
+        break
+    else:
+        print("Sair")
