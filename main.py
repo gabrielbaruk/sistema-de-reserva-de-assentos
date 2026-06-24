@@ -42,7 +42,8 @@ def exibir_mapa_visual():
     print("========= PALCO / TELA =========")
     print("\n " + " - ".join([f"C{c}" for c in range(colunas)]))
     for i, linha in enumerate(mapa_assentos):
-        print(f"L{i} | " + "   ".join(linha) + " |")
+        print(f"L{i} | " + "   '"
+        "".join(linha) + " |")
         print("=========================\n")
 
 
