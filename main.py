@@ -130,7 +130,7 @@ while True:
 
                 print("--- Usuários Disponíveis ---")
                 for idx, u in enumerate(usuarios):
-                    print(f"[{idx}] - {u["Digite um nome"]} (ID: {u["id"]})")
+                    print(f"[{idx}] - {u["nome"]} (ID: {u["id"]})")
 
                 try:
                     num_user = int(
